@@ -122,7 +122,6 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
     html {
         max-width: 100%;
     position: absolute;
-    left: 208px;
     }
     .menu__check {
         position: absolute;
