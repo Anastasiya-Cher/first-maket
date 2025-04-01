@@ -7,13 +7,6 @@ html {
     font-weight: 400;
 }
 
-@font-face {
-    font-family: "TT Lakes";
-    src: local("TT Lakes Italic"), local("TTLakes-Italic"),
-    url("font/TTLakes-Italic.woff2") format("woff2"),
-    url("font/TTLakes-Italic.woff") format("woff");
-
-}
 
 nav {
     display: flex;
