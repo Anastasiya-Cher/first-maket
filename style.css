@@ -113,7 +113,7 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
     .menu__call,
     .menu__chat,
     .menu__profile {
-        display: none;
+        display: none !important;
     }
     
     html {
