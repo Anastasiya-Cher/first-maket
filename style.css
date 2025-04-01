@@ -119,10 +119,6 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
         position: absolute;
         left: 208px;  
     }
-    html {
-        max-width: 100%;
-    position: absolute;
-    }
     .menu__check {
         position: absolute;
         left: 264px;  
@@ -140,5 +136,9 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
     .menu__menu {
         position: absolute;
         left: 16px;
+    }
+    section {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
