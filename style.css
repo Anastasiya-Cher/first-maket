@@ -142,6 +142,6 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
         flex-direction: column;
     }
 section:first-child {
-    order: 1;
+    order: -1;
 }
 }
