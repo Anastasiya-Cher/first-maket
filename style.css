@@ -139,6 +139,9 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
     }
     section {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
+section:first-child {
+    order: 1;
+}
 }
