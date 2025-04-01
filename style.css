@@ -133,4 +133,8 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
     main {
         max-width: 100%;
     }
+    .hidden-text{
+        max-height: 90px;
+        overflow: hidden;
+    }
 }
