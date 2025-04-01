@@ -117,7 +117,7 @@ h1 {
 section .content__input-checkbox:checked ~ .content__read-more::after {
     content: attr(data-back);
   }
-  @media (max-width: 320px) {
+  @media screen and (max-width: 320px) {
     html {
         width: 100%;
     }
