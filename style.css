@@ -109,7 +109,9 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
     content: attr(data-back);
   }
   @media (max-width: 320px) {
-    .menu__gps,
+    html {
+        width: 100%;
+    }
     .menu__call,
     .menu__chat,
     .menu__profile {
@@ -132,6 +134,7 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
     .hidden-text{
         max-height: 90px;
         overflow: hidden;
+        max-width: 100%;
     }
     .menu__menu {
         position: absolute;
@@ -141,7 +144,10 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
         display: flex;
         flex-direction: column;
     }
-section:first-child {
-    order: -1;
+    section:first-child {
+    order: 1;
+}
+img {
+    max-width: 100%;
 }
 }
