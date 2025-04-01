@@ -1,0 +1,110 @@
+
+html {
+    width: 768px;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    align-items: center;
+    width: 768px;
+    height: 88;
+    padding: 24;
+    margin-bottom: 88px;
+    margin-top: 24px;
+}
+
+.menu__menu {
+    position: absolute;
+    left: 24px;
+    top: 24px;
+}
+
+.menu__gps {
+    position: absolute;
+    left: 106.73px;
+    top: 18.59px;
+}
+
+.menu__call {
+    position: absolute;
+    left: 454px; 
+    top: 24px;
+}
+
+.menu__chat {
+    position: absolute;
+    left: 510px;
+    top: 24px;
+}
+
+.menu__profile {
+    position: absolute;
+    left: 566px;
+    top: 24px;
+}
+
+.menu__repair {
+    position: absolute;
+    left: 648px;
+    top: 24px;
+}
+
+.menu__check {
+    position: absolute;
+    left: 704px;
+    top: 24px;
+}
+
+.hidden-text{
+    max-height: 160px;
+    overflow: hidden;
+}
+
+.content__photo-logo {
+    float: right;
+}
+
+.dop-menu__nav:hover {
+    border: solid 2px rgba(184, 255, 236, 1);
+    border-radius: 6px;
+}
+
+.dop-menu {
+    font-size: 16px;
+    color: rgba(126, 126, 130, 1);
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+h1 {
+    background-image: url(icon/marker.svg);
+    background-repeat: no-repeat;
+    padding-left: 24px;
+}
+
+.content__input-checkbox {
+    display: none;
+}
+
+.content__input-checkbox:checked ~ .hidden-text {
+    max-height: 1000px; 
+}
+
+.content__read-more {
+    font-size: 16px;
+    line-height: 24px;
+    background-image: url(icon/read-more.svg);
+    background-repeat: no-repeat;
+    padding-left: 32px;
+    cursor: pointer;
+}
+
+.content__read-more::after {
+    content: attr(data-read); 
+  }
+
+section .content__input-checkbox:checked ~ .content__read-more::after {
+    content: attr(data-back);
+  }
