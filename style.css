@@ -67,6 +67,8 @@ nav {
 
 .content__photo-logo {
     float: right;
+    max-width: 360px;
+    object-fit: cover;
 }
 
 .dop-menu__nav:hover {
@@ -117,6 +119,10 @@ h1 {
 section .content__input-checkbox:checked ~ .content__read-more::after {
     content: attr(data-back);
   }
+
+
+
+
   @media screen, (max-width: 320px) {
     html {
         width: 100%;
