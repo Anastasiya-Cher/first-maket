@@ -3,6 +3,12 @@ html {
     width: 768px;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "TT Lakes";
+    src: url("font/TTLakes-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+}
 nav {
     display: flex;
     align-items: center;
@@ -135,6 +141,10 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
         max-height: 90px;
         overflow: hidden;
         max-width: 100%;
+    }
+    .menu__gps{
+        position: absolute;
+        left: 72px;
     }
     .menu__menu {
         position: absolute;
