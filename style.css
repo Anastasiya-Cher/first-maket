@@ -108,20 +108,16 @@ h1 {
 section .content__input-checkbox:checked ~ .content__read-more::after {
     content: attr(data-back);
   }
-  @media (width: 320px) {
-    .menu__gps {
-        display: none;
-    }
-    .menu__call {
-        display: none; 
-    }
-    .menu__chat {
-        display: none; 
-    }
+  @media (max-width: 320px) {
+    .menu__gps,
+    .menu__call,
+    .menu__chat,
     .menu__profile {
         display: none;
     }
+    
     html {
-        max-width: 320px;
+        max-width: 100%;
+    
     }
-  }
+}
