@@ -113,11 +113,24 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
     .menu__call,
     .menu__chat,
     .menu__profile {
-        display: none !important;
+        display: none;
     }
-    
+    .menu__repair {
+
+    }
     html {
         max-width: 100%;
-    
+    position: absolute;
+    left: 208px;
+    }
+    .menu__check {
+        position: absolute;
+        left: 264px;  
+    }
+    .content__photo-logo {
+        float: none;
+    }
+    main {
+        max-width: 100%;
     }
 }
