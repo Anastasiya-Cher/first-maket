@@ -2,6 +2,7 @@
 html {
     width: 768px;
     box-sizing: border-box;
+    font-family: "TT Lakes";
 }
 
 @font-face {
