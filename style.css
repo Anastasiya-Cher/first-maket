@@ -116,7 +116,8 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
         display: none;
     }
     .menu__repair {
-
+        position: absolute;
+        left: 208px;  
     }
     html {
         max-width: 100%;
@@ -136,5 +137,9 @@ section .content__input-checkbox:checked ~ .content__read-more::after {
     .hidden-text{
         max-height: 90px;
         overflow: hidden;
+    }
+    .menu__menu {
+        position: absolute;
+        left: 16px;
     }
 }
